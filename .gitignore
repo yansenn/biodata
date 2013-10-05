@@ -1,13 +1,35 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
+#include <iostream.h>
+#include <conio.h>
+void main(){
+char nama[130] =        "               Nama           : REDI YANSEN\n";
+char nim[125] =         "               NIM            : 1156401052\n";
+char alamat[150] =      "               Alamat         : Tambun-Bekasi\n";
+char jjg[120] =         "               Jenjang        : S1\n";
+char prodi[150] =       "               Program studi  : Teknik Informatika\n";
+char agma[130] =        "               Agama          : Islam\n";
+char jnsklamin [140]=   "               Jenis kelamin  : Laki-laki\n";
+char umr[130] =         "               Umur           : 25 tahun\n";
+char contact[60] =      "               Contact        : 081314398031\n";
+char email[130] =       "               Email          : hnsen88@gmail.com\n";
+cout << "|\n";
+cout <<                 "|                              D A T A D I R I\n";
+cout <<                 "|                            =====================\n";
+cout << "|\n";
+cout << "|" << nama;
+cout << "|" << nim;
+cout << "|" << alamat;
+cout << "|" << jjg;
+cout << "|" << prodi;
+cout << "|" << agma;
+cout << "|" << jnsklamin;
+cout << "|" << umr;
+cout << "|" << contact;
+cout << "|" << email;
+cout << "|\n"; cout <<"|\n";
+cout << "|\n"; cout <<"|\n";
+cout << "|\n";
+cout <<                 "|                         <===== TERIMA KASIH =====>\n";
+cout << "|\n"; cout <<"|\n"; cout <<"|\n"; cout <<"|\n";
+cout <<"-------------------------------------------------------------------------------";
+getch();
+    }
